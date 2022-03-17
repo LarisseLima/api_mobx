@@ -9,21 +9,19 @@ import 'app_widget.dart';
 
 class AppModule extends MainModule {
 
-  //classes que deseja Injetar no seu projeto (ex: bloc, dependency)
+  //Injeção de dependências
   @override
   List<Bind> get binds => [
-      Bind((i) => CovidApiRepository()), //usando bloc
-      Bind((i) => HomeController()), //usando bloc
+      Bind((i) => CovidApiRepository()), 
+      Bind((i) => HomeController()), 
   ];
 
-  // rotas do módulo
   @override
   List<Router> get routers => [
     Router("/", child: (_, args) => SplashPage()),     
     Router("/home", child: (_, args) => HomePage()),     
   ];
 
-  //adicione seu widget principal aqui  
   @override
   Widget get bootstrap => AppWidget();
 }

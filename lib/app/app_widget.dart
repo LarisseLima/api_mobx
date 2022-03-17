@@ -8,7 +8,6 @@ class AppWidget extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       navigatorKey: Modular.navigatorKey,
-      //adicione o Modular para que ele possa gerenciar o sistema de rotas.
       onGenerateRoute: Modular.generateRoute,
     );
   }
