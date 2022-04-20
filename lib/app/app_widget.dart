@@ -6,8 +6,10 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      // Rota inicial
       initialRoute: "/",
       navigatorKey: Modular.navigatorKey,
+      // Add modular para o gerenciamento de rotas
       onGenerateRoute: Modular.generateRoute,
     );
   }
