@@ -1,4 +1,4 @@
-import 'package:flutter_covid19/models/mundo_model.dart';
+import 'package:api_mobx/models/mundo_model.dart';
 
 class Pais extends Mundo {
   String nome;
