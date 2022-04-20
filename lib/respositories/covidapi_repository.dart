@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_covid19/models/mundo_model.dart';
-import 'package:flutter_covid19/models/pais_model.dart';
+import 'package:api_mobx/models/mundo_model.dart';
+import 'package:api_mobx/models/pais_model.dart';
 
 class CovidApiRepository {
   final Dio _dio = Dio();
