@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_covid19/models/mundo_model.dart';
-import 'package:flutter_covid19/models/pais_model.dart';
-import 'package:flutter_covid19/respositories/covidapi_repository.dart';
+import 'package:api_mobx/models/mundo_model.dart';
+import 'package:api_mobx/models/pais_model.dart';
+import 'package:api_mobx/respositories/covidapi_repository.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:mobx/mobx.dart';
 part 'home_controller.g.dart';
